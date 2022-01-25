@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/temp_schema?useSSL=false
+    username: root
+    password: pass
+  jpa:
+    show-sql: true
+  liquibase:
+    change-log: classpath:db/liquibase-changeLog.xml
